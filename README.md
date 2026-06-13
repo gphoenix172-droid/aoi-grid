@@ -1,5 +1,7 @@
 # aoigrid
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org) [![Zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](#) [![Built by WCN](https://img.shields.io/badge/built%20by-WCN%20Development%20Co-1f6feb.svg)](https://github.com/WCN-DEV-CO)
+
 **A tiny spatial hash grid for Area-of-Interest (AoI) and nearest-neighbor queries. 2D & 3D. Zero dependencies.**
 
 When you have thousands of entities but each one only cares about its *neighbors*, you don't want O(n²) checks. `aoigrid` buckets entities into cells so "who's near me?" and "give me the 50 closest" run in roughly O(local) time.
