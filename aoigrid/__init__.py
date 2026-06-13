@@ -6,7 +6,7 @@ about its nearby neighbors. Insert entities at (x, y) or (x, y, z), then ask
 "who is near me?" in roughly O(local) time instead of O(n^2).
 
 Open-sourced by WCN Development Co, LLC. MIT licensed.
-https://github.com/gphoenix172-droid/aoi-grid
+https://github.com/WCN-DEV-CO/aoi-grid
 """
 from .grid import SpatialGrid
 
